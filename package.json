@@ -1,0 +1,26 @@
+{
+  "name": "bing_reward_script_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.ts",
+  "bin": "src/main.ts",
+  "scripts": {
+    "pc-script": "npx tsx src/main.ts --pc -s '#sb_form_q'",
+    "mobile-script": "npx tsx src/main.ts --mobile -s '#sb_form_q'"
+  },
+  "keywords": [],
+  "author": "Luka",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@renzp/utils": "^0.3.11",
+    "axios": "^1.13.2",
+    "commander": "^14.0.2",
+    "puppeteer": "^24.34.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
