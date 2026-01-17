@@ -34,3 +34,6 @@ npm run mobile-script
 
 npx tsx src/main.ts --pc-script -s <selector> -c <ip:port>
 ```
+
+## 关键字
+将关键字放在 pc.txt 和 mobile.txt 中，一个关键字独占一行。
